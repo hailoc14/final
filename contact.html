@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Sound Design Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Audio Creative Studio</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="audio.html">Audio Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Get in Touch</h1>
+    <p>Interested in collaborating on custom sound design, Foley engineering, or audio post-production? I’d love to hear about your project. Fill out the form below or email me directly.</p>
+
+    <div>
+      <div>
+        <img src="images/studio_microphone.JPG" alt="Studio condenser microphone">
+      </div>
+
+      <form class="card">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Inquiry Type</label>
+          <select id="subject" name="subject">
+            <option value="foley">Foley Sound Design</option>
+            <option value="mixing">Audio Mixing & Editing</option>
+            <option value="collaboration">General Project Inquiry</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Audio Portfolio | Built for Applied Media Communications</p>
+  </footer>
+
+</body>
+</html>
+
+
